@@ -1,0 +1,95 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 70px 20px 0px 20px;
+      line-height: 25px;
+      background-color: #041f33; /*#011c2f;*/
+      color: #e7eff5;
+      padding-bottom: 100px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    main {
+      flex: 1;
+    }
+    
+    .social-links {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;  /* Space between navbar and heading */
+    }
+    
+    .social-links a {
+      margin: 0 10px;  /* Space between the logos */
+    }
+    
+    .social-logo {
+      width: 30px;  /* Adjust size of the logos */
+      height: 30px;
+    } 
+    
+    h4 {
+      color: #b8c6d0;
+    }
+    
+    h5 {
+      font-style: italic;
+      color: #b8c6d0;
+    }
+    
+    p {
+      text-align: left;
+      line-height: 2;
+      margin: 0 auto;
+      max-width: 700px;
+    } 
+    
+    ul {
+      list-style-type: disc;
+      line-height: 2;
+      text-align: left;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    .navbar ul{
+      display: inline-block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #001327;
+      font-size: 14px;
+    }
+    
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      color: white;
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: background-color 0.5s ease-in-out;
+    }
+    
+    li a:hover {
+      background-color: #012954;
+    }
+    
+    a:link {
+      color: white;
+    }
+    
+    .footer { 
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px; 
+      color: #5e768e;
+    }
