@@ -56,15 +56,15 @@
           const message = document.getElementById("form-message");
         
           form.addEventListener("submit", function(e) {
-            e.preventDefault(); // stop redirect
+            e.preventDefault(); 
             const data = new FormData(form);
         
             fetch(form.action, {
               method: "POST",
               body: data,
             }).then(() => {
-              form.reset();                 // clear inputs
-              message.style.display = "block"; // show "submitted!"
+              form.reset();                 
+              message.style.display = "block"; 
             });
           });
         </script>
